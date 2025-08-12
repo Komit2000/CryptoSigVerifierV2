@@ -2,7 +2,7 @@
 Pro tool for crypto signatures PRO
 # CryptoSigVerifier 🔐
 
-[![CI](https://github.com/yourusername/CryptoSigVerifier/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/CryptoSigVerifier/actions)
+[![CI](https://github.com/Komit2000/CryptoSigVerifierV2/actions/workflows/ci.yml/badge.svg)](https://github.com/Komit2000/CryptoSigVerifierV2/actions)
 [![Docker](https://img.shields.io/docker/v/yourusername/cryptosigverifier)](https://hub.docker.com/r/yourusername/cryptosigverifier)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
