@@ -16,8 +16,8 @@ Professional toolkit for cryptographic signature operations with Ethereum suppor
 ## Installation
 ```bash
 # Clone repository
-git clone https://github.com/komit2000/CryptoSigVerifier.git
-cd CryptoSigVerifier
+git clone https://github.com/komit2000/CryptoSigVerifierV2.git
+cd CryptoSigVerifierV2
 
 # Install dependencies
 pip install -r requirements.txt
