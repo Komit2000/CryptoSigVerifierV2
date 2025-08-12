@@ -1,5 +1,17 @@
-github: [komit2000]
+github: [komit2000]  # Your GitHub username
+
 custom:
   - type: crypto
     address: 0xE578FfE7e3c05e1dbd2D68e72440cd77fac40329
     asset: ETH
+  - type: crypto
+    address: 0x6b0c18ba0c30556fc16c38c43f6207ea339a1773
+    asset: USDC
+    chain: BEP20
+  - type: crypto
+    address: TP5mibvk4X7Spmmm9hSvJZ1Fy3n93PunQi
+    asset: USDT
+    chain: TRC20
+  - type: crypto
+    address: 143x835kXPxWoFR7q8DQJdVXjmw57Nche2
+    asset: BTC
