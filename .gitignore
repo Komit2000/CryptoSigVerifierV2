@@ -1,0 +1,17 @@
+# Environment
+.env
+.venv
+venv/
+
+# Build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Output files
+benchmark_results.png
+
+# IDE
+.vscode/
+.idea/
