@@ -29,7 +29,9 @@ python -m src.cli sign -m "Hello Crypto" -k <private_key>
 
 # Run benchmark (1000 iterations)
 
-Crypto Support
+
+
+## Quick Crypto Support
 
 I create professional cryptography tools. Support my open-source project!
 
