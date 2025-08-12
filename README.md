@@ -1,33 +1,26 @@
 # CryptoSigVerifier 🔐
 
-[![CI](https://github.com/Komit2000/CryptoSigVerifierV2/actions/workflows/ci.yml/badge.svg)](https://github.com/Komit2000/CryptoSigVerifierV2/actions)
-[![Docker](https://img.shields.io/docker/v/Komit2000/CryptoSigVerifierV2)](https://hub.docker.com/r/Komit2000/CryptoSigVerifierV2)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+Professional toolkit for cryptographic signature operations with Ethereum support
 
-Professional-grade cryptographic signature verification toolkit with Ethereum support.
+[![CI Status](https://github.com/komit2000/CryptoSigVerifierV2/workflows/CI/badge.svg)](https://github.com/komit2000/CryptoSigVerifierV2/actions)
+[![Docker Image](https://img.shields.io/docker/v/komit2000/CryptoSigVerifierV2?sort=semver)](https://hub.docker.com/r/komit2000/CryptoSigVerifierV2)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Features
-
-- 🔒 Ethereum-compatible key generation
-- ✍️ ECDSA message signing with proper Ethereum prefix
+## Features ✨
+- ✅ Ethereum-compatible key generation (secp256k1)
+- ✅ EIP-191 message signing and verification
 - ⚡ Performance benchmarking
-- 📊 Interactive visualization
-- 🐳 Docker-ready
-- 🔁 CI/CD integrated
+- 🐳 Docker support
+- 📊 Automated CI/CD
 
-## Quick Start
-
+## Installation
 ```bash
+# Clone repository
+git clone https://github.com/komit2000/CryptoSigVerifier.git
+cd CryptoSigVerifier
+
 # Install dependencies
 pip install -r requirements.txt
-
-# Generate key pair
-python -m src.cli generate-keys
-
-# Sign message
-python -m src.cli sign -m "Hello Crypto" -k <private_key>
-
-# Run benchmark (1000 iterations)
 
 
 
