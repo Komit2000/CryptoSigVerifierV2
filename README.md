@@ -1,9 +1,7 @@
-# CryptoSigVerifierV2
-Pro tool for crypto signatures PRO
 # CryptoSigVerifier 🔐
 
 [![CI](https://github.com/Komit2000/CryptoSigVerifierV2/actions/workflows/ci.yml/badge.svg)](https://github.com/Komit2000/CryptoSigVerifierV2/actions)
-[![Docker](https://img.shields.io/docker/v/yourusername/cryptosigverifier)](https://hub.docker.com/r/yourusername/cryptosigverifier)
+[![Docker](https://img.shields.io/docker/v/Komit2000/CryptoSigVerifierV2)](https://hub.docker.com/r/Komit2000/CryptoSigVerifierV2)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Professional-grade cryptographic signature verification toolkit with Ethereum support.
@@ -33,7 +31,8 @@ python -m src.cli sign -m "Hello Crypto" -k <private_key>
 
 
 
-## Crypto Support
+
+##  Crypto Support
 
 I create professional cryptography tools. Support my open-source project!
 
