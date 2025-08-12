@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "cryptosigverifier"
+version = "1.0.0"
+description = "Professional Cryptographic Signature Verifier"
+authors = [{name = "Your Name", email = "your.email@example.com"}]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "click==8.1.7",
+    "eth-account==0.14.0",
+    "secp256k1==0.17.0",
+    "numpy==1.26.4",
+    "matplotlib==3.8.2",
+    "tqdm==4.66.2"
+]
+[project.scripts]
+cryptosig = "src.cli:cli"

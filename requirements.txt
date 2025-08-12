@@ -1,0 +1,8 @@
+click==8.1.7
+eth-account==0.14.0
+secp256k1==0.17.0
+numpy==1.26.4
+matplotlib==3.8.2
+tqdm==4.66.2
+web3==6.15.0
+python-dotenv==1.0.0
