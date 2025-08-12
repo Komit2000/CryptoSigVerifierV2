@@ -1,20 +1,25 @@
 [build-system]
-requires = ["setuptools>=65.0", "wheel"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
 [project]
 name = "cryptosigverifier"
-version = "1.0.0"
-description = "Professional Cryptographic Signature Verifier"
-authors = [{name = "Your Name", email = "your.email@example.com"}]
-license = {text = "MIT"}
-requires-python = ">=3.10"
+version = "0.1.0"
+description = "Professional cryptographic signature toolkit"
+readme = "README.md"
+requires-python = ">=3.8"
 dependencies = [
-    "click==8.1.7",
-    "eth-account==0.14.0",
-    "secp256k1==0.17.0",
-    "numpy==1.26.4",
-    "matplotlib==3.8.2",
-    "tqdm==4.66.2"
+    "ecdsa",
+    "eth-keys",
+    "eth-utils",
+    "matplotlib",
+    "numpy",
+    "tqdm"
 ]
-[project.scripts]
-cryptosig = "src.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-cov"]
+
+[project.urls]
+"Homepage" = "https://github.com/komit2000/CryptoSigVerifierV2"
+"Bug Tracker" = "https://github.com/komit2000/CryptoSigVerifierV2/issues"
